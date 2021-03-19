@@ -1,0 +1,457 @@
+* 
+{
+    padding:0px;
+    margin:0px;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    
+}
+body{
+    
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background:url('Images/intro-bg.jpg') no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+nav
+{
+background: #313030;
+height: 85px;
+width: 100%;
+}  
+
+label.logo
+{
+  color: whitesmoke;
+  font-size: 35px;line-height: 80px;
+  padding: 0 100px;
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+  }
+ 
+nav ul li
+{
+    display: inline-block;
+    line-height: 80px;margin: 0 5px;
+} 
+nav ul li a
+{
+  color: whitesmoke;
+  font-size: 18px;
+  padding: 7px 15px;
+}
+
+nav ul li a:hover
+{
+  background-color: rgb(109, 106, 106);
+  color: rgb(216, 209, 209);
+  transition: 0.6s ease;
+}
+.overlay1
+{
+  background: rgba(22, 21, 21, 0.434);
+  width: 100%;height: 100vh;position: absolute;z-index:1 ;
+}
+.info
+{
+  margin-left: 5%;
+}
+.info #p1
+{
+  font-size: 70px;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  margin-top: 17%;
+  margin-left:20%;
+  
+}
+.info #p2
+{
+  font-size: 20px;
+  color: rgb(251, 249, 249); 
+  margin-left:35%;
+}
+.info label
+{
+  font-size: 20px;
+  color: rgb(251, 249, 249); 
+  margin-top: 17%;
+  margin-left:29%;
+}
+button
+ {
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  padding: 12px;
+  border-radius: 4px;
+  font-size: 18px;
+  color: whitesmoke;
+  background-color: #72d12a; 
+  margin-top: 3%;
+  margin-left:45%;
+  
+ }
+
+button:hover
+ {
+   background: yellowgreen;
+   color: black;
+ }
+.welcome
+{
+margin-top: 46%;
+background-color: white;
+margin-left: 6%;
+}
+
+.about2 img , .about3 img
+{
+   height: 200px;
+   width: 220px;
+}
+.about2,.about3,.about1
+{
+   display: inline-block;
+   
+   padding-left: 2%;
+}
+.about1 #pp1
+{
+    font-size: 35px;
+    color: #3e3f3f;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(111, 189, 69);
+    padding-bottom: 2%;
+}
+.about1 label
+{
+  color: rgb(115, 163, 44);
+}
+
+#pp2 ,.about2 p ,.about3 p
+{
+  color: #767a7a;
+  font-size: 15px;
+}
+.about2 label,.about3 label
+{
+  font-size: 19px;
+  color: #0d0e0e;
+}
+.about1 input
+{
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  padding: 12px;
+  border-radius: 4px;
+  font-size: 18px;
+  color: rgb(248, 246, 246);
+  background-color: #72d12a; 
+}
+.about1 input:hover
+{
+  background: yellowgreen;
+  color: black; 
+}
+.services
+{
+  margin-top:5%;
+  background-color: #64b329;
+  
+}
+#s1 
+{
+  font-size: 45px;color: whitesmoke;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  padding-top: 9%;
+  padding-left: 40%;
+  padding-right: 5%;  
+ }
+#s2
+{font-size: 16px;color: whitesmoke;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  padding-left: 28%;
+}
+.ser1,.ser2,.ser3,.ser4
+{
+  margin-left: 7%;
+  padding-top: 5%;
+  display: inline-block;
+  padding-bottom: 10%;
+}
+.ser1 img,.ser2 img,.ser3 img,.ser4 img
+{
+  margin-top: 5%;
+  border-radius: 50%;
+  border:10px solid #7aca3d; 
+  height: 200px;
+  width: 200px;
+}
+.ser1 label,.ser2 label,.ser3 label,.ser4 label
+{
+    font-size: 25px;
+    color: whitesmoke;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 6px;
+}
+.ser1 p,.ser2 p,.ser3 p,.ser4 p
+{
+    color: whitesmoke;
+    font-size: 14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 2%;
+}
+#g1 
+{
+  font-size: 35px;color: rgb(65, 62, 62);
+  font-weight:600;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding-top: 5%;padding-left: 40%;
+  padding-right: 20%;
+}
+#g2
+{
+    font-size: 18px;color: rgb(65, 62, 62);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 2%;
+    padding-left: 28%;
+}
+.gallery
+{
+  background-color: whitesmoke;
+}
+.gallery ol li
+{
+  
+  display: inline-block; 
+  margin-left: 2%; 
+}
+.gallery ol li a
+{
+ list-style: none;
+ color: rgb(70, 68, 68);
+ font-size: 17px;
+ padding:4px;
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ border-radius: 3px;
+ font-weight:400;
+  padding-left: 15px;
+  padding-top:7px; ;
+  padding-bottom:7px;
+  padding-right: 15px;
+ background-color: rgb(224, 224, 224);
+}
+.gallery ol
+{
+    margin-left: 33%;
+}
+.gallery li a.active 
+{
+    background-color: #4CAF50;
+    color: white;
+}
+.gal img
+{
+  height: 200px;
+  width: 290px;
+  
+  padding-left: 12px;
+}
+.gal
+{
+  margin-left: 18%;
+}
+.testi
+{
+  background-image: url('Images/testimonials-bg.jpg');
+  background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;height: 50vw;;
+}
+.overlay2
+{
+  background: rgba(56, 235, 25, 0.255);
+  width: 100%;height: 50vw;position: absolute;z-index:1 ;
+}
+.testi #t2 ,#t3,#t4
+{
+  font-size: 18px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+  font-weight: lighter;
+}
+.testi #t1
+{
+  font-size: 45px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: whitesmoke;
+  padding-top: 10%;
+  margin-left: 40%;font-weight: 500;
+}
+#t2
+{
+    margin-left: 20%;
+    margin-top: 7%;
+}
+#t4
+{
+    margin-left: 40%;padding-top: 2%;
+}
+
+#t3
+{
+    margin-left: 30%;
+}
+.dot 
+{
+    height: 12px;
+    width: 12px;
+    background-color:transparent;
+    border: 1px solid whitesmoke;
+    border-radius: 50%;
+    display: inline-block;
+}
+.dt
+{
+    margin-left: 44%;
+}
+
+.dt span:first-child
+{
+  background-color: whitesmoke;
+}
+.contact
+{
+  background-color: white;
+}
+#c1
+{
+  margin-top: 9%;
+  margin-left: 40%;
+  font-size: 40px;
+  font-weight: 500;
+  color: #282929;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#c2
+{
+  font-size: 15px;
+  color: #282929;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-left: 30%;
+  margin-top: 16px;
+}
+.contact label
+{
+    font-size: 15px;
+    font-weight: bold;
+    padding-left: 22px;
+    color: #282929;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.contact p
+{
+    margin-top: 7px;
+    font-size: 14px;
+    color: #282929;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.addr, .woho ,.coin
+{
+    margin-left: 16%;
+    margin-top: 3%;
+    display: inline-block;
+}
+#l1
+{
+  font-size: 15px;
+  font-weight: bold;
+  padding-left: 22px;
+  color: #282929;
+  margin-left: 41%;
+  margin-top: 3%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.contact input,textarea
+{
+    font-size: 15px;
+    font-weight:normal;
+    color: #282929;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.contact textarea
+{
+    height:100px;
+    width: 500px;
+    margin-left: 30%;
+    margin-top: 2px; padding-left: 1%; padding-top: 1%;
+}
+.contact input
+{
+    margin-top: 3%;
+    height: 36px;width: 230px;
+    padding-left: 3%; margin-left: 26%;
+}
+.contact button
+{
+  background-color: rgb(68, 161, 18);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size:18px ;
+  margin-left: 44%;
+  margin-bottom: 5%;
+}
+.contact ul li
+{
+  display: inline-block;
+}
+.contact ul
+{
+  margin-left: 26%;
+}
+.footer
+{
+  background-color: #282929;
+  height: 22%;width: 100%;
+}
+#foo
+{
+  font-size: 14px;
+  color: #6c6d6d;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  padding-top: 35px;
+}
+#foo label
+{
+    color: #9fa5a5;
+}
+.fb,.twit,.google
+{
+  font-size: 25px; 
+  display: inline-block;
+  padding-top: 3%;
+  padding-right: 3%;
+}
+.fb
+{
+    padding-top: 3%; 
+    padding-left: 44%;
+}
+.google p:hover
+{ 
+    background-color: rgb(78, 80, 79);
+}
+.fb p:hover
+{ 
+    background-color: rgb(80, 78, 78);
+}
+.twit p:hover
+{ 
+    background-color: rgb(80, 78, 78);
+}
+
+
+
+
